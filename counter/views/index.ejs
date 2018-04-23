@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>counter page</title>
+</head>
+<body>
+    <h2>this page has been viewed <%= count %> times</h2>
+    <form action="/two">
+        <input type="submit" value="+2">
+    </form>
+    <form action="/reset">
+        <input type="submit" value="Reset">
+    </form>
+</body>
+</html>
